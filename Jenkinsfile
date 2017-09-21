@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker 'docker-java8-maven' }
+    agent { docker 'maven' }
     stages {
         stage('build') {
             steps {
